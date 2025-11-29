@@ -12,7 +12,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import { useState, useRef, useEffect } from "react";
 import { PieChart, Pie, Cell, ResponsiveContainer, Tooltip, LineChart, Line, XAxis, YAxis, CartesianGrid,} from "recharts";
 import "./css/ProviderHome.css";
-import { BASE_URLS } from "../api";
+import { BASE_URLS } from "../api/api";
 
 function ProviderHome() {
   const navigate = useNavigate();

@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
 import { useNavigate, useSearchParams } from 'react-router-dom';
 import "./css/activateAccount.css";
-import { BASE_URLS } from '../api';
+import { BASE_URLS } from '../api/api';
 
 function ActivateAccount({ setUser }) {
   const [activated, setActivated] = useState(false);

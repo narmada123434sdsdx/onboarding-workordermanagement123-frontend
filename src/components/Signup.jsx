@@ -3,7 +3,7 @@ import { Link, useNavigate } from 'react-router-dom';
 import { Eye, EyeOff } from 'lucide-react';
 import ReCAPTCHA from 'react-google-recaptcha';
 import './css/signup.css';
-import { BASE_URLS } from '../api';
+import { BASE_URLS } from '../api/api';
 
 function Signup() {
   const [phoneNumber, setPhoneNumber] = useState('');

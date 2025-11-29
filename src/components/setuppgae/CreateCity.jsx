@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import "./css/setuppage.css";
-import { apiGet, apiPost, apiPut, apiDelete } from "../../api";
+import { BASE_URLS } from '../../api/api';
 
 const CreateCity = () => {
   const [formData, setFormData] = useState({

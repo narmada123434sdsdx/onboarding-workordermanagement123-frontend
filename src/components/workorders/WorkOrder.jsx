@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import "./css/workorders.css";
-import { apiGet } from "../../api";   // ✅ use .env-based API
+import { apiGet } from "../../api/api";   // ✅ use .env-based API
 
 const WorkOrders = () => {
   const [workorders, setWorkorders] = useState([]);

@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { useParams, useNavigate } from "react-router-dom";
 import "./css/workorderdetails.css";
-import { apiGet, apiPost } from "../../api";
+import { apiGet, apiPost } from "../../api/api";
 
 const WorkOrderDetails = () => {
   const { workorder } = useParams();

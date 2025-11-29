@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react';
 import { useNavigate, useLocation } from 'react-router-dom';
 import "./css/otpverification.css";
-import { BASE_URLS } from '../api';
+import { BASE_URLS } from '../api/api';
 
 function OTPVerification({ setUser }) {
   const [otp, setOtp] = useState('');

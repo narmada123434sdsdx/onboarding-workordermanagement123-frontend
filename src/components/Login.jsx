@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { Link, useLocation, useNavigate } from 'react-router-dom';
 import { Eye, EyeOff } from 'lucide-react';
 import './css/login.css';
-import { BASE_URLS } from '../api';
+import { BASE_URLS } from '../api/api';
 
 function Login() {
   const [email, setEmail] = useState('');

@@ -1,7 +1,7 @@
 // components/AdminDashboard.jsx
 import React, { useState, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
-import { BASE_URLS } from '../api';
+import { BASE_URLS } from '../api/api';
 // import './css/AdminDashboard.css';
 
 

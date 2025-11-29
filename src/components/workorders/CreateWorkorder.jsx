@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import "./css/createworkorder.css";
 import Swal from "sweetalert2";
-import { apiGet, BASE_URL } from "../../api";
+import { apiGet, BASE_URL } from "../../api/api";
 
 
 const CreateWorkOrder = () => {

@@ -12,7 +12,7 @@ export const BASE_URLS = {
 
   admin: isProduction
     ? BASE_URL               // production admin API
-    : "http://localhost:5001",   // local admin API
+    : "http://localhost:5000",   // local admin API
 };
 
 // Unified API fetch wrapper

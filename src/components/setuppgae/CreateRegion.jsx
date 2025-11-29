@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import "./css/setuppage.css";
-import { apiGet, apiPost, apiPut, apiDelete } from "../../api";
 
+import { apiGet, apiPost, apiPut, apiDelete } from '../../api/api';
 
 const CreateRegion = () => {
   const [formData, setFormData] = useState({

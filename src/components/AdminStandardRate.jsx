@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import axios from "axios";
 import "./css/AdminStandardRate.css";  // optional styling
-import { BASE_URLS } from "../api";
+import { BASE_URLS } from "../api/api";
 
 
 

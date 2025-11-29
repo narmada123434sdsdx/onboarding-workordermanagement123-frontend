@@ -1,7 +1,7 @@
 // ProviderProfile.jsx (updated: concatenated auto-fill into address textarea)
 import React, { useState, useEffect } from 'react';
 import './css/ProviderProfile.css';
-import { BASE_URLS } from '../api';
+import { BASE_URLS } from '../api/api';
 
 function ProviderProfile({ user }) {
   const [profile, setProfile] = useState(null);

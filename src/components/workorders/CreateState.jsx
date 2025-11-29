@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import "./css/setuppage.css";
-import { apiGet, apiPost, apiPut, apiDelete } from "../../api";
+import { apiGet, apiPost, apiPut, apiDelete } from "../../api/api";
 
 const CreateState = () => {
   const [formData, setFormData] = useState({

@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import "./css/setuppage.css";
-import { apiGet, apiPost, apiPut, apiDelete } from "../../api";
+import { apiGet, apiPost, apiPut, apiDelete } from '../../api/api';
 
 const DescriptionPage = () => {
   const [formData, setFormData] = useState({

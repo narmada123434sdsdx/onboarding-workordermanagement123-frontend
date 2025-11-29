@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import { Link, useLocation, useNavigate } from "react-router-dom";
 import { Eye, EyeOff } from "lucide-react";
 import "./css/CompanyLogin.css";
-import { BASE_URLS } from "../../api";
+import { BASE_URLS } from '../../api/api';
 
 function CompanyLogin({setContractor}) {
   const [email, setEmail] = useState("");

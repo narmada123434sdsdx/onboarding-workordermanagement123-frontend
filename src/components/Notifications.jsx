@@ -1,6 +1,6 @@
 // components/Notifications.jsx (New: Component to display notifications)
 import React, { useState, useEffect } from 'react';
-import { BASE_URLS } from '../api';
+import { BASE_URLS } from '../api/api';
 
 function Notifications({ user }) {
   const [notifications, setNotifications] = useState([]);

@@ -4,7 +4,7 @@ import { Link, Outlet, useNavigate, useLocation } from "react-router-dom";
 import { FaUserCircle, FaBell, FaClipboardList } from "react-icons/fa";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./css/CompanyApp.css";
-import { BASE_URLS } from "../../api";
+import { BASE_URLS } from '../../api/api';
 
 function CompanyApp() {
   const navigate = useNavigate();

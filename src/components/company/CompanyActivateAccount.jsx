@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
 import { useNavigate, useSearchParams } from 'react-router-dom';
 import "./css/companyActivateAccount.css";
-import { BASE_URLS } from '../../api';
+import { BASE_URLS } from '../../api/api';
 
 function CompanyActivateAccount({ setContractor }) {
   const [activated, setActivated] = useState(false);

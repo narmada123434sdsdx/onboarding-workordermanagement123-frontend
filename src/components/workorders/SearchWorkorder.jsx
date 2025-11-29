@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import "./css/searchworkorders.css";
 
 // 🔥 Import API wrapper
-import { apiGet, apiFetch } from "../../api";
+import { apiGet, apiFetch } from "../../api/api";
 
 const SearchWorkOrder = () => {
   const [searchTerm, setSearchTerm] = useState("");

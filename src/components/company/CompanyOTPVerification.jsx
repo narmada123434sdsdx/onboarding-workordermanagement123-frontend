@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { useLocation, useNavigate } from "react-router-dom";
 import "./css/CompanyOTPVerification.css";
-import { BASE_URLS } from "../../api";
+import { BASE_URLS } from '../../api/api';
 
 function CompanyOTPVerification({setContractor}) {
   const location = useLocation();
