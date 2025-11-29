@@ -6,7 +6,7 @@ import CreateRegion from "./CreateRegion";
 import CreateState from "./CreateState";
 import CreateCity from "./CreateCity";
 import CategoryPage from "./CategoryPage";
-import ItemPage from "./ItemPage";
+import ItemPage from "./itemPage";
 import TypePage from "./TypePage";
 import DescriptionPage from "./DescriptionPage";
 
@@ -27,7 +27,7 @@ function SetuppageLayout() {
           <Route path="/state" element={<CreateState />} />
           <Route path="/city" element={<CreateCity />} />
           <Route path="/category" element={<CategoryPage />} />
-          <Route path="/item" element={<ItemPage />} />
+          <Route path="/item" element={<itemPage />} />
           <Route path="/type" element={<TypePage />} />
           <Route path="/description" element={<DescriptionPage />} />
         </Routes>
